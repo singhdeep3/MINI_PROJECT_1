@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic_Tac_Toe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <p class="game_info"></p>
+      <div class="tic_tac_toe">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+        <div class="box box9"></div>
+      </div>
+
+      <button class="btn">New Game</button>
+      <button class="again">Start Again!</button>
+      <button class="matchBtn">Start a Match</button>
+      <div class="countX">
+        <p>Total win of Player X</p>
+        <p class="count_x"></p>
+      </div>
+      <div class="countO">
+        <p>Total win of Player O</p>
+        <p class="count_0"></p>
+      </div>
+
+      <div class="tournament">
+        <form action="#" class="tournament_form">
+          <label for="rounds">HOW MANY ROUNDS?</label>
+          <input type="text" id="rounds" placeholder="1 or 2 or 3..." />
+          <button class="start_match" type="submit">Start</button>
+        </form>
+
+        <p class="note">NOTE : Only play 12,000 Matches in single play.</p>
+      </div>
+      <div class="match_count"></div>
+      <div class="winner">
+        <p class="desc"> </p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
